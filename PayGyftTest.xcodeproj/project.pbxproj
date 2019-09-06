@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5425C02056A3D1EEB280D770 /* Pods_PayGyftTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AEA3E94E7B41F103D452566 /* Pods_PayGyftTest.framework */; };
+		A31336DD231291DD00319124 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31336DC231291DD00319124 /* AppDelegate.swift */; };
+		A31336E2231291DD00319124 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A31336E0231291DD00319124 /* Main.storyboard */; };
+		A31336E5231291DD00319124 /* PayGyftTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A31336E3231291DD00319124 /* PayGyftTest.xcdatamodeld */; };
+		A31336E7231291DF00319124 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A31336E6231291DF00319124 /* Assets.xcassets */; };
+		A31336EA231291DF00319124 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A31336E8231291DF00319124 /* LaunchScreen.storyboard */; };
+		A31336F32312941400319124 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31336F22312941400319124 /* HomeViewController.swift */; };
+		A31336F7231294C000319124 /* CategorySlugCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31336F5231294C000319124 /* CategorySlugCollectionViewCell.swift */; };
+		A31336F8231294C000319124 /* CategorySlugCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A31336F6231294C000319124 /* CategorySlugCollectionViewCell.xib */; };
+		A31336FB2312960C00319124 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31336FA2312960C00319124 /* Constant.swift */; };
+		A313370023129A0900319124 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31336FF23129A0900319124 /* NetworkService.swift */; };
+		A313370323129C1200319124 /* KeyConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A313370223129C1200319124 /* KeyConstant.swift */; };
+		A313370623129CD600319124 /* Url.swift in Sources */ = {isa = PBXBuildFile; fileRef = A313370523129CD600319124 /* Url.swift */; };
+		A313370923129E3900319124 /* CategoryListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A313370823129E3900319124 /* CategoryListModel.swift */; };
+		A313370B2312A4D600319124 /* CategoryDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A313370A2312A4D600319124 /* CategoryDetailModel.swift */; };
+		A313370E2312A71200319124 /* CategoryDetailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A313370C2312A71200319124 /* CategoryDetailCollectionViewCell.swift */; };
+		A313370F2312A71200319124 /* CategoryDetailCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A313370D2312A71200319124 /* CategoryDetailCollectionViewCell.xib */; };
+		A31337112312A8CF00319124 /* CoreDatabaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31337102312A8CF00319124 /* CoreDatabaseHelper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		88F047F61FD61D3F10CD938B /* Pods-PayGyftTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayGyftTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-PayGyftTest/Pods-PayGyftTest.release.xcconfig"; sourceTree = "<group>"; };
+		9AEA3E94E7B41F103D452566 /* Pods_PayGyftTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayGyftTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A31336D9231291DD00319124 /* PayGyftTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayGyftTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A31336DC231291DD00319124 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A31336E1231291DD00319124 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A31336E4231291DD00319124 /* PayGyftTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PayGyftTest.xcdatamodel; sourceTree = "<group>"; };
+		A31336E6231291DF00319124 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A31336E9231291DF00319124 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A31336EB231291DF00319124 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A31336F22312941400319124 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A31336F5231294C000319124 /* CategorySlugCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorySlugCollectionViewCell.swift; sourceTree = "<group>"; };
+		A31336F6231294C000319124 /* CategorySlugCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategorySlugCollectionViewCell.xib; sourceTree = "<group>"; };
+		A31336FA2312960C00319124 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		A31336FF23129A0900319124 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		A313370223129C1200319124 /* KeyConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyConstant.swift; sourceTree = "<group>"; };
+		A313370523129CD600319124 /* Url.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Url.swift; sourceTree = "<group>"; };
+		A313370823129E3900319124 /* CategoryListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryListModel.swift; sourceTree = "<group>"; };
+		A313370A2312A4D600319124 /* CategoryDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailModel.swift; sourceTree = "<group>"; };
+		A313370C2312A71200319124 /* CategoryDetailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailCollectionViewCell.swift; sourceTree = "<group>"; };
+		A313370D2312A71200319124 /* CategoryDetailCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryDetailCollectionViewCell.xib; sourceTree = "<group>"; };
+		A31337102312A8CF00319124 /* CoreDatabaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDatabaseHelper.swift; sourceTree = "<group>"; };
+		EE58FBDDD8F5018E69C8A537 /* Pods-PayGyftTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayGyftTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PayGyftTest/Pods-PayGyftTest.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A31336D6231291DD00319124 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5425C02056A3D1EEB280D770 /* Pods_PayGyftTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72C45BC53E4F42D73EA33397 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE58FBDDD8F5018E69C8A537 /* Pods-PayGyftTest.debug.xcconfig */,
+				88F047F61FD61D3F10CD938B /* Pods-PayGyftTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A31336D0231291DD00319124 = {
+			isa = PBXGroup;
+			children = (
+				A31336DB231291DD00319124 /* PayGyftTest */,
+				A31336DA231291DD00319124 /* Products */,
+				72C45BC53E4F42D73EA33397 /* Pods */,
+				F27114B049DB39444DC3FD4B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A31336DA231291DD00319124 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A31336D9231291DD00319124 /* PayGyftTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A31336DB231291DD00319124 /* PayGyftTest */ = {
+			isa = PBXGroup;
+			children = (
+				A313370723129E1900319124 /* Models */,
+				A313370423129CC200319124 /* UrlClass */,
+				A313370123129C0400319124 /* KeyConstants */,
+				A31336FC231299D800319124 /* NetworkServiceClass */,
+				A31336F9231295FE00319124 /* Constants */,
+				A31336F1231293FD00319124 /* ViewController */,
+				A31336F42312942200319124 /* CollectionViewCell */,
+				A31336DC231291DD00319124 /* AppDelegate.swift */,
+				A31336E0231291DD00319124 /* Main.storyboard */,
+				A31336E6231291DF00319124 /* Assets.xcassets */,
+				A31336E8231291DF00319124 /* LaunchScreen.storyboard */,
+				A31336EB231291DF00319124 /* Info.plist */,
+				A31336E3231291DD00319124 /* PayGyftTest.xcdatamodeld */,
+			);
+			path = PayGyftTest;
+			sourceTree = "<group>";
+		};
+		A31336F1231293FD00319124 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A31336F22312941400319124 /* HomeViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A31336F42312942200319124 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				A31336F5231294C000319124 /* CategorySlugCollectionViewCell.swift */,
+				A31336F6231294C000319124 /* CategorySlugCollectionViewCell.xib */,
+				A313370C2312A71200319124 /* CategoryDetailCollectionViewCell.swift */,
+				A313370D2312A71200319124 /* CategoryDetailCollectionViewCell.xib */,
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		A31336F9231295FE00319124 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				A31336FA2312960C00319124 /* Constant.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		A31336FC231299D800319124 /* NetworkServiceClass */ = {
+			isa = PBXGroup;
+			children = (
+				A31336FF23129A0900319124 /* NetworkService.swift */,
+			);
+			path = NetworkServiceClass;
+			sourceTree = "<group>";
+		};
+		A313370123129C0400319124 /* KeyConstants */ = {
+			isa = PBXGroup;
+			children = (
+				A313370223129C1200319124 /* KeyConstant.swift */,
+			);
+			path = KeyConstants;
+			sourceTree = "<group>";
+		};
+		A313370423129CC200319124 /* UrlClass */ = {
+			isa = PBXGroup;
+			children = (
+				A313370523129CD600319124 /* Url.swift */,
+			);
+			path = UrlClass;
+			sourceTree = "<group>";
+		};
+		A313370723129E1900319124 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A313370823129E3900319124 /* CategoryListModel.swift */,
+				A313370A2312A4D600319124 /* CategoryDetailModel.swift */,
+				A31337102312A8CF00319124 /* CoreDatabaseHelper.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F27114B049DB39444DC3FD4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9AEA3E94E7B41F103D452566 /* Pods_PayGyftTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A31336D8231291DD00319124 /* PayGyftTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A31336EE231291DF00319124 /* Build configuration list for PBXNativeTarget "PayGyftTest" */;
+			buildPhases = (
+				EF39EBBC40B0A235FA1C87B4 /* [CP] Check Pods Manifest.lock */,
+				A31336D5231291DD00319124 /* Sources */,
+				A31336D6231291DD00319124 /* Frameworks */,
+				A31336D7231291DD00319124 /* Resources */,
+				9A59EC9DD2C4F9C5EA9B3FD9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PayGyftTest;
+			productName = PayGyftTest;
+			productReference = A31336D9231291DD00319124 /* PayGyftTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A31336D1231291DD00319124 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = Oodles;
+				TargetAttributes = {
+					A31336D8231291DD00319124 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = A31336D4231291DD00319124 /* Build configuration list for PBXProject "PayGyftTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A31336D0231291DD00319124;
+			productRefGroup = A31336DA231291DD00319124 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A31336D8231291DD00319124 /* PayGyftTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A31336D7231291DD00319124 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A31336EA231291DF00319124 /* LaunchScreen.storyboard in Resources */,
+				A31336E7231291DF00319124 /* Assets.xcassets in Resources */,
+				A313370F2312A71200319124 /* CategoryDetailCollectionViewCell.xib in Resources */,
+				A31336E2231291DD00319124 /* Main.storyboard in Resources */,
+				A31336F8231294C000319124 /* CategorySlugCollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9A59EC9DD2C4F9C5EA9B3FD9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PayGyftTest/Pods-PayGyftTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PayGyftTest/Pods-PayGyftTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF39EBBC40B0A235FA1C87B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PayGyftTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A31336D5231291DD00319124 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A31336E5231291DD00319124 /* PayGyftTest.xcdatamodeld in Sources */,
+				A31336DD231291DD00319124 /* AppDelegate.swift in Sources */,
+				A31336FB2312960C00319124 /* Constant.swift in Sources */,
+				A31336F32312941400319124 /* HomeViewController.swift in Sources */,
+				A313370323129C1200319124 /* KeyConstant.swift in Sources */,
+				A31337112312A8CF00319124 /* CoreDatabaseHelper.swift in Sources */,
+				A313370023129A0900319124 /* NetworkService.swift in Sources */,
+				A313370B2312A4D600319124 /* CategoryDetailModel.swift in Sources */,
+				A313370923129E3900319124 /* CategoryListModel.swift in Sources */,
+				A31336F7231294C000319124 /* CategorySlugCollectionViewCell.swift in Sources */,
+				A313370E2312A71200319124 /* CategoryDetailCollectionViewCell.swift in Sources */,
+				A313370623129CD600319124 /* Url.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A31336E0231291DD00319124 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A31336E1231291DD00319124 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A31336E8231291DF00319124 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A31336E9231291DF00319124 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A31336EC231291DF00319124 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A31336ED231291DF00319124 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A31336EF231291DF00319124 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE58FBDDD8F5018E69C8A537 /* Pods-PayGyftTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y6DZ8DR537;
+				INFOPLIST_FILE = PayGyftTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.prince.PayGyftTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A31336F0231291DF00319124 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88F047F61FD61D3F10CD938B /* Pods-PayGyftTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y6DZ8DR537;
+				INFOPLIST_FILE = PayGyftTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.prince.PayGyftTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A31336D4231291DD00319124 /* Build configuration list for PBXProject "PayGyftTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A31336EC231291DF00319124 /* Debug */,
+				A31336ED231291DF00319124 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A31336EE231291DF00319124 /* Build configuration list for PBXNativeTarget "PayGyftTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A31336EF231291DF00319124 /* Debug */,
+				A31336F0231291DF00319124 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A31336E3231291DD00319124 /* PayGyftTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A31336E4231291DD00319124 /* PayGyftTest.xcdatamodel */,
+			);
+			currentVersion = A31336E4231291DD00319124 /* PayGyftTest.xcdatamodel */;
+			path = PayGyftTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A31336D1231291DD00319124 /* Project object */;
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14492.1" systemVersion="18G84" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CategoryDetail" representedClassName="CategoryDetail" syncable="YES" codeGenerationType="class">
+        <attribute name="category_slug" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="logo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="offer" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="store_name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="CategoryList" representedClassName="CategoryList" syncable="YES" codeGenerationType="class">
+        <attribute name="bcategory_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="category_slug" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="icon" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="CategoryListDetailData" representedClassName="CategoryListDetailData" syncable="YES" codeGenerationType="class">
+        <attribute name="categoryListData" optional="YES" attributeType="Binary" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CategoryList" positionX="-136.73046875" positionY="-25.17578125" width="128" height="90"/>
+        <element name="CategoryDetail" positionX="-24.8046875" positionY="122.41796875" width="128" height="103"/>
+        <element name="CategoryListDetailData" positionX="-54" positionY="108" width="128" height="60"/>
+    </elements>
+</model>
